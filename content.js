@@ -406,16 +406,16 @@ window.UNITS = [
     title: "前沿與爭點：2013 年之後發生了什麼",
     hook: "參考書停在 2013 年。之後十年，哪些做法被更正、哪些方法失靈、哪些問題至今還在吵？",
     tags: "PMCMC、correlated pseudo-marginal、SMC²、regime switching、COVID 離群值、局部化、HARQ、rough volatility、可微粒子濾波",
-    status: "planned", estDur: "約 13 分鐘", segWord: "小節",
+    status: "done", estDur: "12:33", segWord: "小節",
     sections: [
       { t: 0, title: "2013 年的方法，放在 2026 年看" },
-      { t: 70, title: "PMCMC：粒子要幾個才夠" },
-      { t: 170, title: "線上參數學習：退化與 SMC²" },
-      { t: 260, title: "Regime switching、離群值與 COVID 之後的總經模型" },
-      { t: 370, title: "高維崩潰與局部化" },
-      { t: 460, title: "高頻與波動：HARQ、rough volatility、Hawkes" },
-      { t: 560, title: "模型與演算法的界線開始模糊" },
-      { t: 660, title: "下一集：隱藏狀態真的存在嗎？" }
+      { t: 82, title: "PMCMC：粒子要幾個才夠" },
+      { t: 237, title: "線上參數學習：退化與 SMC²" },
+      { t: 315, title: "Regime switching、離群值與 COVID 之後的總經模型" },
+      { t: 437, title: "高維崩潰與局部化" },
+      { t: 527, title: "高頻與波動：HARQ、rough volatility、Hawkes" },
+      { t: 633, title: "模型與演算法的界線開始模糊" },
+      { t: 701, title: "下一集：隱藏狀態真的存在嗎？" }
     ],
     formula: R`\alpha(\theta\to\theta')=\min\!\left\{1,\;\frac{\hat p_N(y_{1:T}\mid\theta')\,p(\theta')\,q(\theta\mid\theta')}{\hat p_N(y_{1:T}\mid\theta)\,p(\theta)\,q(\theta'\mid\theta)}\right\},\qquad \operatorname{sd}\!\big[\log\hat p_N(y_{1:T}\mid\theta)\big]\approx 1.2`,
     pre: [
@@ -463,15 +463,15 @@ window.UNITS = [
     title: "隱藏狀態真的存在嗎？",
     hook: "產出缺口、自然利率、波動率……它們是世界裡的「東西」，還是我們為了說故事而發明的座標？",
     tags: "本體論、潛在變數、可識別性、觀測等價、模型不確定性、Lucas critique、Markov 表示",
-    status: "planned", estDur: "約 11 分鐘", segWord: "小節",
+    status: "done", estDur: "11:50", segWord: "小節",
     sections: [
       { t: 0, title: "回到窗簾後的小貓" },
-      { t: 70, title: "實在論與工具論：兩種看待隱藏狀態的方式" },
-      { t: 170, title: "觀測等價：不同故事、同一份資料" },
-      { t: 290, title: "可識別性與模型不確定性" },
-      { t: 400, title: "Lucas critique：當狀態會回應政策" },
-      { t: 500, title: "狀態是一種表示選擇" },
-      { t: 600, title: "下一集：同一個迴圈為什麼到處都是" }
+      { t: 76, title: "實在論與工具論：兩種看待隱藏狀態的方式" },
+      { t: 180, title: "觀測等價：不同故事、同一份資料" },
+      { t: 320, title: "可識別性與模型不確定性" },
+      { t: 424, title: "Lucas critique：當狀態會回應政策" },
+      { t: 527, title: "狀態是一種表示選擇" },
+      { t: 646, title: "下一集：同一個迴圈為什麼到處都是" }
     ],
     formula: R`y_t=\mu_t+\varepsilon_t,\;\mu_t=\mu_{t-1}+\eta_t \;\Longrightarrow\; \Delta y_t=\eta_t+\varepsilon_t-\varepsilon_{t-1},\quad \rho_1=-\frac{H}{Q+2H}`,
     pre: [
@@ -517,15 +517,15 @@ window.UNITS = [
     title: "預測—更新迴圈的普適結構",
     hook: "天氣預報、GPS、大腦的知覺、語音辨識和最新的 AI 序列模型，為什麼都在跑同一個迴圈？",
     tags: "貝氏更新、遞迴最小平方、控制對偶、資料同化、預測編碼、HMM、狀態空間序列模型",
-    status: "planned", estDur: "約 12 分鐘", segWord: "小節",
+    status: "done", estDur: "12:29", segWord: "小節",
     sections: [
       { t: 0, title: "抽掉載體，只留下結構" },
       { t: 70, title: "Kalman = 高斯貝氏更新 = 遞迴最小平方" },
-      { t: 180, title: "估計與控制的對偶" },
-      { t: 280, title: "氣象資料同化與導航" },
-      { t: 380, title: "離散狀態：HMM 與 regime switching" },
-      { t: 470, title: "大腦與 AI：預測編碼與狀態空間序列模型" },
-      { t: 590, title: "下一集：極限與取捨" }
+      { t: 229, title: "估計與控制的對偶" },
+      { t: 330, title: "氣象資料同化與導航" },
+      { t: 446, title: "離散狀態：HMM 與 regime switching" },
+      { t: 548, title: "大腦與 AI：預測編碼與狀態空間序列模型" },
+      { t: 678, title: "下一集：極限與取捨" }
     ],
     formula: R`\underbrace{p(x_t\mid y_{1:t})}_{\text{後驗}} \;\propto\; \underbrace{p(y_t\mid x_t)}_{\text{概似}} \int \underbrace{p(x_t\mid x_{t-1})}_{\text{動態}}\,\underbrace{p(x_{t-1}\mid y_{1:t-1})}_{\text{前一期後驗}}\,dx_{t-1}`,
     pre: [
@@ -571,15 +571,15 @@ window.UNITS = [
     title: "極限、取捨與路線圖",
     hook: "維度一高，粒子數就爆炸；要即時，就得犧牲精度。央行、交易室與 AI 團隊各自該怎麼押注？",
     tags: "維度詛咒、計算成本、即時性、模型風險、取捨、路線圖、費曼閉環",
-    status: "planned", estDur: "約 11 分鐘", segWord: "小節",
+    status: "done", estDur: "11:34", segWord: "小節",
     sections: [
       { t: 0, title: "從小貓到整個經濟體" },
-      { t: 70, title: "計算天花板：O(n³) 與維度詛咒" },
-      { t: 180, title: "取捨一：即時性 vs 精確度" },
-      { t: 280, title: "取捨二：可解釋性 vs 彈性" },
-      { t: 380, title: "三種機構的選擇：央行、交易室、AI 團隊" },
-      { t: 490, title: "模型風險治理" },
-      { t: 570, title: "費曼閉環：回到窗簾後的小貓" }
+      { t: 65, title: "計算天花板：O(n³) 與維度詛咒" },
+      { t: 203, title: "取捨一：即時性 vs 精確度" },
+      { t: 295, title: "取捨二：可解釋性 vs 彈性" },
+      { t: 401, title: "三種機構的選擇：央行、交易室、AI 團隊" },
+      { t: 508, title: "模型風險治理" },
+      { t: 593, title: "費曼閉環：回到窗簾後的小貓" }
     ],
     formula: R`\underbrace{O(n^3)}_{\text{Kalman：狀態維度 } n} \quad\text{vs}\quad \underbrace{N \sim e^{c\,d}}_{\text{標準粒子濾波：維度 } d}`,
     pre: [
