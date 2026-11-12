@@ -87,14 +87,14 @@ window.UNITS = [
     title: "猜測和眼睛在拔河",
     hook: "你猜明天會下雨，可是早上天空看起來很晴朗。該相信誰？相信多少？",
     tags: "預測、觀察、修正、拔河、信任份數",
-    status: "planned", estDur: "約 7 分鐘", segWord: "小節",
+    status: "done", estDur: "7:23", segWord: "小節",
     sections: [
       { t: 0, title: "上一集的小貓又跑了" },
-      { t: 60, title: "第一步：先預測" },
-      { t: 140, title: "第二步：再觀察" },
-      { t: 220, title: "拔河：誰比較可信就多聽誰" },
+      { t: 57, title: "第一步：先預測" },
+      { t: 129, title: "第二步：再觀察" },
+      { t: 192, title: "拔河：誰比較可信就多聽誰" },
       { t: 330, title: "一直重複，就會跟上變化" },
-      { t: 400, title: "下一集：用兩條規則說完" }
+      { t: 409, title: "下一集：用兩條規則說完" }
     ],
     formula: R`\text{新猜測} = \text{預測} + \text{信任度} \times (\text{觀察} - \text{預測})`,
     pre: [
@@ -137,14 +137,14 @@ window.UNITS = [
     title: "兩條方程說完一個系統",
     hook: "汽車油錶會晃、統計局的數字會修正。怎麼用兩條方程，把「真實」和「量到的」分開？",
     tags: "狀態方程、觀測方程、誤差、平均值、景氣",
-    status: "planned", estDur: "約 8 分鐘", segWord: "小節",
+    status: "done", estDur: "8:15", segWord: "小節",
     sections: [
       { t: 0, title: "油錶的指針在晃" },
-      { t: 70, title: "狀態方程：東西怎麼變" },
-      { t: 170, title: "觀測方程：線索怎麼來" },
-      { t: 260, title: "誤差：平均是 0，但每次都不一樣" },
-      { t: 350, title: "換成經濟：真實景氣 vs 公布的 GDP" },
-      { t: 440, title: "下一集：誤差有多大？" }
+      { t: 57, title: "狀態方程：東西怎麼變" },
+      { t: 165, title: "觀測方程：線索怎麼來" },
+      { t: 273, title: "誤差：平均是 0，但每次都不一樣" },
+      { t: 354, title: "換成經濟：真實景氣 vs 公布的 GDP" },
+      { t: 455, title: "下一集：誤差有多大？" }
     ],
     formula: R`\underbrace{x_t = x_{t-1} + u_t + w_t}_{\text{狀態方程}} \qquad \underbrace{y_t = x_t + v_t}_{\text{觀測方程}}`,
     pre: [
@@ -188,14 +188,14 @@ window.UNITS = [
     title: "雜訊、變異數與加權平均",
     hook: "信任度到底該設多少？答案藏在兩個誤差的「變異數」比例裡。",
     tags: "變異數、加權平均、Kalman 增益、不確定性、通膨趨勢",
-    status: "planned", estDur: "約 8 分鐘", segWord: "小節",
+    status: "done", estDur: "8:35", segWord: "小節",
     sections: [
       { t: 0, title: "兩個都不準的量測，平均會更準嗎？" },
-      { t: 80, title: "變異數：量化「有多不準」" },
-      { t: 170, title: "最佳權重：越不準，分到越少" },
-      { t: 270, title: "Kalman 增益 K = P/(P+R)" },
-      { t: 360, title: "修正後的不確定性變小了" },
-      { t: 430, title: "下一集：經濟學裡看不見的變數" }
+      { t: 75, title: "變異數：量化「有多不準」" },
+      { t: 172, title: "最佳權重：越不準，分到越少" },
+      { t: 276, title: "Kalman 增益 K = P/(P+R)" },
+      { t: 358, title: "修正後的不確定性變小了" },
+      { t: 456, title: "下一集：經濟學裡看不見的變數" }
     ],
     formula: R`K=\frac{P}{P+R},\qquad \hat{x}=\hat{x}^- + K\,(y-\hat{x}^-),\qquad P^+=(1-K)\,P`,
     pre: [
@@ -241,15 +241,15 @@ window.UNITS = [
     title: "經濟學為什麼離不開看不見的變數",
     hook: "央行要決定升息，但最關鍵的「產出缺口」從來沒有人直接量到過。決策者怎麼面對這個盲區？",
     tags: "潛在產出、產出缺口、自然失業率、波動率、違約脆弱度、即時預測",
-    status: "planned", estDur: "約 11 分鐘", segWord: "小節",
+    status: "done", estDur: "10:55", segWord: "小節",
     sections: [
       { t: 0, title: "決策會議上那個缺席的數字" },
-      { t: 80, title: "潛在產出與產出缺口" },
-      { t: 180, title: "自然失業率與趨勢通膨" },
-      { t: 280, title: "波動率：市場看不見的溫度" },
-      { t: 380, title: "違約脆弱度：為什麼公司會一起變壞" },
-      { t: 470, title: "即時預測與資料修正" },
-      { t: 580, title: "下一集：把直覺寫成矩陣" }
+      { t: 71, title: "潛在產出與產出缺口" },
+      { t: 167, title: "自然失業率與趨勢通膨" },
+      { t: 271, title: "波動率：市場看不見的溫度" },
+      { t: 357, title: "違約脆弱度：為什麼公司會一起變壞" },
+      { t: 438, title: "即時預測與資料修正" },
+      { t: 581, title: "下一集：把直覺寫成矩陣" }
     ],
     formula: R`\text{新估計} = \text{舊估計} + K\cdot(\text{新資料} - \text{預期})，\quad K \text{ 隨 } \frac{\text{結構變動}}{\text{量測雜訊}} \text{ 上升}`,
     pre: [
@@ -295,15 +295,15 @@ window.UNITS = [
     title: "線性高斯狀態空間模型與 Kalman filter",
     hook: "只要模型是線性的、雜訊是高斯的，最佳濾波就有封閉解。它長什麼樣子？怎麼用它做最大概似估計？",
     tags: "線性高斯、Kalman filter、預測誤差分解、MLE、平滑器、TVP-VAR",
-    status: "planned", estDur: "約 12 分鐘", segWord: "小節",
+    status: "done", estDur: "12:43", segWord: "小節",
     sections: [
       { t: 0, title: "從一維走到矩陣" },
-      { t: 80, title: "線性高斯狀態空間模型的標準形式" },
-      { t: 190, title: "條件高斯推導 Kalman filter" },
-      { t: 320, title: "預測誤差分解與最大概似估計" },
-      { t: 430, title: "平滑器：用全部資料回頭看" },
-      { t: 520, title: "時變參數 VAR 的狀態空間表示" },
-      { t: 640, title: "下一集：非線性時怎麼辦" }
+      { t: 81, title: "線性高斯狀態空間模型的標準形式" },
+      { t: 178, title: "條件高斯推導 Kalman filter" },
+      { t: 328, title: "預測誤差分解與最大概似估計" },
+      { t: 475, title: "平滑器：用全部資料回頭看" },
+      { t: 565, title: "時變參數 VAR 的狀態空間表示" },
+      { t: 703, title: "下一集：非線性時怎麼辦" }
     ],
     formula: R`\begin{aligned} y_t &= Z\alpha_t + \varepsilon_t, & \varepsilon_t &\sim N(0,H)\\ \alpha_{t+1} &= T\alpha_t + \eta_t, & \eta_t &\sim N(0,Q)\\ v_t &= y_t - Za_t,\; F_t = ZP_tZ' + H, & K_t &= TP_tZ'F_t^{-1}\\ a_{t+1} &= Ta_t + K_tv_t, & P_{t+1} &= TP_t(T-K_tZ)' + Q \end{aligned}`,
     pre: [
@@ -350,16 +350,16 @@ window.UNITS = [
     title: "非線性時代：粒子濾波與參數學習",
     hook: "隨機波動率模型讓 Kalman filter 失效。用一群「粒子」近似分配時，誤差從哪裡來？參數又要怎麼一邊濾波一邊學？",
     tags: "粒子濾波、bootstrap filter、APF、重抽樣、ESS、Liu–West、Storvik、Particle Learning",
-    status: "planned", estDur: "約 12 分鐘", segWord: "小節",
+    status: "done", estDur: "12:36", segWord: "小節",
     sections: [
       { t: 0, title: "封閉解消失的那一刻" },
-      { t: 70, title: "隨機波動率模型為什麼非線性" },
-      { t: 160, title: "Bootstrap filter：傳播、加權、重抽樣" },
-      { t: 280, title: "Auxiliary particle filter 與重抽樣方法" },
-      { t: 380, title: "權重退化與有效樣本數" },
-      { t: 470, title: "參數學習：Liu–West、Storvik、Particle Learning" },
-      { t: 590, title: "Monte Carlo 誤差與計算成本" },
-      { t: 670, title: "下一集：前沿與爭點" }
+      { t: 71, title: "隨機波動率模型為什麼非線性" },
+      { t: 155, title: "Bootstrap filter：傳播、加權、重抽樣" },
+      { t: 281, title: "Auxiliary particle filter 與重抽樣方法" },
+      { t: 376, title: "權重退化與有效樣本數" },
+      { t: 494, title: "參數學習：Liu–West、Storvik、Particle Learning" },
+      { t: 627, title: "Monte Carlo 誤差與計算成本" },
+      { t: 709, title: "下一集：前沿與爭點" }
     ],
     formula: R`\tilde w_t^{(i)} \propto w_{t-1}^{(i)}\,\frac{p(y_t\mid x_t^{(i)})\,p(x_t^{(i)}\mid x_{t-1}^{(i)})}{q(x_t^{(i)}\mid x_{t-1}^{(i)},y_t)},\qquad \mathrm{ESS}_t=\frac{1}{\sum_i (w_t^{(i)})^2}`,
     pre: [
@@ -403,12 +403,12 @@ window.UNITS = [
   // ---------------------------------------------------------- EP8 · L8
   {
     no: 8, id: "u08", phase: 2, tier: "L8 領域專家｜學科前沿與未解爭點",
-    title: "前沿與爭點：這本書之後發生了什麼",
+    title: "前沿與爭點：2013 年之後發生了什麼",
     hook: "參考書停在 2013 年。之後十年，哪些做法被更正、哪些方法失靈、哪些問題至今還在吵？",
     tags: "PMCMC、correlated pseudo-marginal、SMC²、regime switching、COVID 離群值、局部化、HARQ、rough volatility、可微粒子濾波",
     status: "planned", estDur: "約 13 分鐘", segWord: "小節",
     sections: [
-      { t: 0, title: "一本 2013 年的書，放在 2026 年讀" },
+      { t: 0, title: "2013 年的方法，放在 2026 年看" },
       { t: 70, title: "PMCMC：粒子要幾個才夠" },
       { t: 170, title: "線上參數學習：退化與 SMC²" },
       { t: 260, title: "Regime switching、離群值與 COVID 之後的總經模型" },
