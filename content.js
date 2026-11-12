@@ -38,14 +38,15 @@ window.UNITS = [
     title: "看不見的小貓在哪裡？",
     hook: "小貓躲到窗簾後面，你只聽得到喵喵聲。你要怎麼猜牠在哪裡？",
     tags: "隱藏、聲音、猜一猜、再猜一次",
-    status: "planned", estDur: "約 7 分鐘", segWord: "小節",
+    status: "done", estDur: "6:40", segWord: "小節",
     sections: [
-      { t: 0, title: "小貓不見了" },
-      { t: 50, title: "看不見，但牠還在" },
-      { t: 130, title: "聲音會騙人一點點" },
-      { t: 220, title: "猜、聽、再猜" },
-      { t: 320, title: "越聽越準，但不會百分之百" },
-      { t: 390, title: "下一集：猜測和耳朵拔河" }
+      { t: 0, title: "小貓躲起來了" },
+      { t: 38, title: "聲音會飄" },
+      { t: 92, title: "先猜，再聽" },
+      { t: 155, title: "一直聽，一直改" },
+      { t: 226, title: "很吵的時候" },
+      { t: 285, title: "掀開窗簾" },
+      { t: 350, title: "猜、聽、改猜" }
     ],
     formula: R`\text{猜一猜} \;\rightarrow\; \text{聽一聽} \;\rightarrow\; \text{再猜一次}`,
     pre: [
