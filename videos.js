@@ -19,5 +19,5 @@ window.VIDEO_LINKS = {
   u08: { youtube: "I9FEF1o4t78", mp4: "", duration: "12:34", sections: [0, 82.9, 237.9, 315.1, 437.8, 527.7, 633.5, 701.9], noVoice: "", short: "" },
   u09: { youtube: "Q1Ewl6LcsoU", mp4: "", duration: "11:50", sections: [0, 76.4, 180.7, 320.4, 424.8, 527.4, 646.8], noVoice: "", short: "" },
   u10: { youtube: "UPtZYPf_x74", mp4: "", duration: "12:29", sections: [0, 70.7, 229.3, 330, 446, 548.3, 678.1], noVoice: "", short: "" },
-  u11: { youtube: "", mp4: "", duration: "", sections: null, noVoice: "", short: "" }
+  u11: { youtube: "3QljsJgnDAw", mp4: "", duration: "11:34", sections: [0, 65.4, 203.7, 295.6, 401.1, 508.3, 593.4], noVoice: "", short: "" }
 };
